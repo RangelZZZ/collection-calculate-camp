@@ -25,7 +25,7 @@ function getResultArray(number_a,number_b) {
     }
   }
 
-  if (number_a == number_b && number_a % 2 === 0) {
+  if (number_a === number_b && number_a % 2 === 0) {
     resultArray.push(number_a)
   }
 
