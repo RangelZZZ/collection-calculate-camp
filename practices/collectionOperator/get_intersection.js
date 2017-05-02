@@ -8,8 +8,8 @@ function get_intersection(collection_a, collection_b) {
       resultArray.push(item);
     }
   });
-  return resultArray;
 
+  return resultArray;
 }
 
 module.exports = get_intersection;
