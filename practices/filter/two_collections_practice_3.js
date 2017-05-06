@@ -2,7 +2,7 @@
 
 function choose_divisible_integer(collection_a, collection_b) {
 
-  //在这里写入代码
+  return collection_a.filter(item => collection_b.find(element => item % element === 0));
 }
 
-module.exports = choose_divisible_integer;
+module.exports = choose_divisible_integer;g
